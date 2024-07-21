@@ -9,6 +9,7 @@ _mimac16_ is a simple 16-bit computer architecture inspired by [Ben Eater's 8-bi
 This repository contains documentation regarding the architecture itself.  
 Code for flashing the EEPROM with microcode can be found in the [mimac16-microcode](https://github.com/Mirrrek/mimac16-microcode) repository.  
 Code for an emulator written in TypeScript can be found in the [mimac16-emulator](https://github.com/Mirrrek/mimac16-emulator) repository.  
+Schematics and code for the VGA GPU can be found in the [mimac16-gpu](https://github.com/Mirrrek/mimac16-gpu) repository.  
 The architecture is designed to execute the [Nitrogen](https://github.com/Mirrrek/nitrogen) programming language.
 
 ## Table of Contents
