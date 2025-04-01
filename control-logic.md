@@ -19,6 +19,7 @@
 | Sector | Signal | Supports `BANK` | Description                                                        |
 | :----- | :----- | :-------------- | :----------------------------------------------------------------- |
 | -      | `BANK` | -               | Enable `BANK` (access high byte of sectors)                        |
+| -      | `MOC`  | No              | Set memory overflow flag if carry flag is set                      |
 | CLK    | `RST`  | Yes             | Reset or halt (`BANK` low = reset, `BANK` high = halt)             |
 | CL     | `SR`   | No              | Reset step                                                         |
 | CL     | `SRZ`  | No              | Reset step if zero flag is set                                     |
