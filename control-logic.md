@@ -33,6 +33,7 @@
 | PC     | `PCo`  | Yes             | Read from PC                                                       |
 | PC     | `PC+`  | No              | Increment PC                                                       |
 | MAR    | `MARi` | Yes             | Write to MAR                                                       |
+| MAR    | `MAR+` | No              | Increment MAR                                                      |
 | MEM    | `ROMi` | Yes             | Write to ROM and increment it                                      |
 | MEM    | `ROMo` | Yes             | Read from ROM and increment it                                     |
 | MEM    | `RAMi` | Yes             | Write to RAM and increment it                                      |
@@ -60,7 +61,6 @@
 | Y      | `Yo`   | No              | Read from Y                                                        |
 | Y      | `Y+`   | No              | Increment Y                                                        |
 | Y      | `Y-`   | No              | Decrement Y                                                        |
-| X\|Y   | `XY+`  | No              | Increment 16-bit X (low) and Y (high)                              |
 | DSP    | `DSPi` | No              | Write to DSP                                                       |
 | IN     | `INo`  | No              | Read from IN                                                       |
 | IN     | `INs`  | No              | Read IN status                                                     |
