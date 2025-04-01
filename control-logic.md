@@ -19,8 +19,7 @@
 | Sector | Signal | Supports `BANK` | Description                                                        |
 | :----- | :----- | :-------------- | :----------------------------------------------------------------- |
 | -      | `BANK` | -               | Enable `BANK` (access high byte of sectors)                        |
-| CLK    | `HLT`  | No              | Halt                                                               |
-| CLK    | `RST`  | No              | Reset                                                              |
+| CLK    | `RST`  | Yes             | Reset or halt (`BANK` low = reset, `BANK` high = halt)             |
 | CL     | `SR`   | No              | Reset step                                                         |
 | CL     | `SRZ`  | No              | Reset step if zero flag is set                                     |
 | CL     | `SRC`  | No              | Reset step if carry flag is set                                    |
