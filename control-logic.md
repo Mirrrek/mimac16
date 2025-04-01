@@ -61,6 +61,7 @@
 | Y      | `Yo`   | No              | Read from Y                                                        |
 | Y      | `Y+`   | No              | Increment Y                                                        |
 | Y      | `Y-`   | No              | Decrement Y                                                        |
+| Y      | `YC+`  | No              | Increment Y if carry flag is set                                   |
 | DSP    | `DSPi` | No              | Write to DSP                                                       |
 | IN     | `INo`  | Yes             | Read from IN (`BANK` low = data, `BANK` high = status)             |
 | OUT    | `OUTi` | No              | Write to OUT and advance cursor                                    |
