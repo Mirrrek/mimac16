@@ -62,7 +62,6 @@
 | Y      | `Y+`   | No              | Increment Y                                                        |
 | Y      | `Y-`   | No              | Decrement Y                                                        |
 | DSP    | `DSPi` | No              | Write to DSP                                                       |
-| IN     | `INo`  | No              | Read from IN                                                       |
-| IN     | `INs`  | No              | Read IN status                                                     |
+| IN     | `INo`  | Yes             | Read from IN (`BANK` low = data, `BANK` high = status)             |
 | OUT    | `OUTi` | No              | Write to OUT and advance cursor                                    |
 | OUT    | `OUTa` | Yes             | Set OUT address                                                    |
